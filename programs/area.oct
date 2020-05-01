@@ -1,0 +1,21 @@
+% program to calculate area of a circle
+PI = 3.1416;
+  
+% get input
+radius = input;
+
+% calculate area
+area = PI * radius * radius;
+
+% output
+print area;
+
+%addition
+x = 5;
+y = 6;
+z = x + y;
+print z;
+
+%multiplication
+t = x*y;
+print t;

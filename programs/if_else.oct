@@ -1,0 +1,6 @@
+NUM = 35*2;
+if NUM > 40 then
+      NUM = NUM - 10;
+    else
+      NUM = NUM + 5;
+print NUM;      

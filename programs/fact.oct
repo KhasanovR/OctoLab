@@ -1,0 +1,14 @@
+% program to calculate factorials
+
+% get input
+x = input;
+fact = 1;
+
+% a loop!
+while x > 1.0 do {
+  fact = fact * x;
+  x = x - 1;
+}
+
+% output
+print fact;

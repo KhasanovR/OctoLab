@@ -1,0 +1,9 @@
+a = input;
+b = input;
+while a >= b do {
+	a = a - b;
+}
+print a;
+
+
+

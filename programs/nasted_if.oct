@@ -1,0 +1,20 @@
+NUM = 35;
+a = 25;
+if NUM > 20 then
+  if NUM > 30 then
+    if NUM > 40 then
+      NUM = NUM - 10;
+    else
+      NUM = NUM + 5;
+  else {
+    NUM = 25 - NUM;
+  }
+NUM = NUM - .5;
+{
+  a = a-2;
+  a = a + 3;
+NUM = NUM + a;
+}
+
+print a;
+print NUM;
